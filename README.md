@@ -5,8 +5,8 @@ Additionally it contains is_any_pressed and is_all_pressed function.
 
 ## How To Install
     pip install git+https://github.com/b1015062Furukawa/pygks.git
-    
-    It works only in Windows
+
+It works only in Windows
 
 ## Example Usage
 
