@@ -1,5 +1,5 @@
 # pygks
-Python GetKeyState module
+Python GetKeyState module free from win32api and win32con module
 
 Additionally it contains is_any_pressed and is_all_pressed function.
 
