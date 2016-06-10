@@ -18,7 +18,7 @@ def GetKeyState(keycode):
     Examples:
         >>get_key_state(pygks.VK_A)
         True
-        >>get_key_state('VK_SHIFT')
+        >>get_key_state(pygks.VK_SHIFT)
         False
 
     """
@@ -40,7 +40,7 @@ def is_all_pressed(*keycode_args):
         KeyError: If the key is not supported in this module
 
     Examples:
-        >>is_all_pressed('VK_SHIFT', 'VK_CONTROL', 'n')
+        >>is_all_pressed(pygks.VK_SHIFT, pygks.VK_CONTROL, pygks.VK_N)
         True
 
     """
@@ -62,7 +62,7 @@ def is_any_pressed(*keycode_args):
         KeyError: If the key is not supported in this module
 
     Examples:
-        >>is_all_pressed('VK_SHIFT', 'VK_CONTROL', 'n')
+        >>is_all_pressed(pygks.VK_SHIFT, pygks.VK_CONTROL, pygks.VK_N)
         True
 
     """
